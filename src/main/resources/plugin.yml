@@ -7,3 +7,5 @@ description: Do /blockwalk set a block and turn it on and walk over the blocks t
 commands:
   blockwalk:
     description: This is just a test use it for testing!
+  aliases: bl
+    permission: blockwalk.mainperm

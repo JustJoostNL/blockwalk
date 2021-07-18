@@ -1,6 +1,7 @@
 package com.koningjoost.blockwalk;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -12,6 +13,7 @@ public final class Blockwalk extends JavaPlugin implements CommandExecutor {
     @Override
     public void onEnable() {
         getCommand("blockwalk").setExecutor(this);
+        getServer().getPluginManager().registerEvents(new PlayerMove(), this);
         // Plugin startup logic
         System.out.println("Blockwalk is enabled!");
 
@@ -24,17 +26,19 @@ public final class Blockwalk extends JavaPlugin implements CommandExecutor {
     }
 
 
-    //command
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(!(sender instanceof Player)) {
+           sender.sendMessage(ChatColor.DARK_RED + "Run this command as a player!");
             return false;
         }
         Player p = (Player) sender;
 
         if(cmd.getName().equalsIgnoreCase("blockwalk"))
-            p.sendMessage(ChatColor.BLUE + "Hoi dit is een test! Als je dit ziet kun je goed programmeren!");
+            p.sendMessage(ChatColor.GREEN + "Activated!");
         return false;
     }
+
+
 }
