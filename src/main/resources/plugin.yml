@@ -1,0 +1,9 @@
+name: Blockwalk
+version: ${project.version}
+main: com.koningjoost.blockwalk.Blockwalk
+api-version: 1.16
+authors: [ koningjoost ]
+description: Do /blockwalk set a block and turn it on and walk over the blocks to change them!
+commands:
+  blockwalk:
+    description: This is just a test use it for testing!
