@@ -17,8 +17,9 @@ jobs:
           java-version: '1.8'
 
       - name: Build with Maven
-        run: mvn -B package --file pom.xml
-             mkdir staging && cp target/*.jar staging
+        run: |
+            mvn -B package --file pom.xml
+            mkdir staging && cp target/*.jar staging
 
       - name: set up cache for maven
         uses: actions/cache@v2
