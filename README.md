@@ -39,7 +39,7 @@ If you have a problem you can report it [Here](https://github.com/koningcool/blo
 
 Or go to our [Discussions](https://github.com/koningcool/blockwalk/discussions) tab to report a problem or ask questions.
 
-![Average time to resolve an issue](https://isitmaintained.com/project/koningcool/blockwalk)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/koningcool/blockwalk.svg)](http://isitmaintained.com/project/koningcool/blockwalk "Average time to resolve an issue")
 
 # Ideas
 
