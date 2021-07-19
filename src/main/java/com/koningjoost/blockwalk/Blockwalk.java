@@ -44,7 +44,7 @@ public final class Blockwalk extends JavaPlugin implements CommandExecutor {
                 }
             }
         }else {
-        p.sendMessage(ChatColor.DARK_RED + "You dont have permission to do that!");
+            p.sendMessage(ChatColor.DARK_RED + "You dont have permission to do that!");
             }
         return false;
     }
