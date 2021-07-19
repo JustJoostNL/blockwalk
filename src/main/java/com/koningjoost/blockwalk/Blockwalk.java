@@ -33,17 +33,21 @@ public final class Blockwalk extends JavaPlugin implements CommandExecutor {
            return false;
         }
         Player p = (Player) sender;
-
-        if(cmd.getName().equalsIgnoreCase("blockwalk")) {
-            if (!blockwalkEnabled) {
-                blockwalkEnabled = true;
-                p.sendMessage(ChatColor.GREEN + "Activated!");
-            } else {
-                blockwalkEnabled = false;
-                p.sendMessage(ChatColor.GREEN + "Deactivated!");
+        if(p.hasPermission("blockwalk.mainperm")) {
+            if (cmd.getName().equalsIgnoreCase("blockwalk")) {
+                if (!blockwalkEnabled) {
+                    blockwalkEnabled = true;
+                    p.sendMessage(ChatColor.GREEN + "Activated!");
+                } else {
+                    blockwalkEnabled = false;
+                    p.sendMessage(ChatColor.GREEN + "Deactivated!");
+                }
             }
-        }
-
+        }else {
+            p.sendMessage(ChatColor.DARK_RED + "You dont have permission to do that!");
+            }
         return false;
     }
+
 }
+
