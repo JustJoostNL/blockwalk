@@ -49,7 +49,7 @@ Or go to our [Discussions](https://github.com/koningcool/blockwalk/discussions) 
 
 # Commands
 
-Use 1 of these following commands to load all the worlds in the server!
+Use 1 of these following commands to activate or deactivate the blockwalk effect.
 
 `/blockwalk`
 
@@ -65,7 +65,7 @@ Author: koningcool
 
 Version: 0.0.1
 
-Spigot builds: Is coming!!
+Spigot builds: https://www.spigotmc.org/resources/blockwalk.94470/
 Bukkit builds: Is coming!
 
 
