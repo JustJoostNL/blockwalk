@@ -8,4 +8,3 @@ commands:
   blockwalk:
     description: This is just a test use it for testing!
     aliases: [bwalk,bw,walkblock]
-
