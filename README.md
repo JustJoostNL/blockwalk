@@ -17,7 +17,6 @@ Or you can walk over water.
 Also its is very fun to use!
 
 
-
 # Important
 
 If you have a server with less CPU power the server can begin to lagg.
@@ -28,8 +27,6 @@ But the most servers will run it perfectly!
 
 1. Making you choose what will be the new block under your feet.
 2. Allow you to choose which blocks to exclude from changing. (e.g. air)
-3. Creating a permission, if you don't have that permission you can't run blockwalk.
-
 
 # Issues
 
@@ -56,7 +53,9 @@ Use 1 of these following commands to activate or deactivate the blockwalk effect
 
 # Permissions
 
-Permissions are coming!!
+blockwalk.mainperm
+If you dont have this permission you cant use the plugin.
+
 
 # Info
 Name: BlockWalk
@@ -65,11 +64,10 @@ Author: koningcool
 
 Version: 0.0.1
 
-Spigot builds: https://www.spigotmc.org/resources/blockwalk.94470/
-Bukkit builds: Is coming!
+Spigot downloads: https://www.spigotmc.org/resources/blockwalk.94470/
+Bukkit downloads: https://dev.bukkit.org/projects/blockwalk
 
 
-
-Wiki is coming for installation info!
+Wiki on github is coming for installation info!
  
  
