@@ -1,5 +1,5 @@
 name: Blockwalk
-version: ${project.version}
+version: 0.0.2
 main: com.koningjoost.blockwalk.Blockwalk
 api-version: 1.16
 authors: [ koningjoost ]

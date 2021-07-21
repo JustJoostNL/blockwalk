@@ -62,7 +62,7 @@ Name: BlockWalk
 
 Author: koningcool
 
-Version: 0.0.1
+Version: 0.0.2
 
 Spigot downloads: https://www.spigotmc.org/resources/blockwalk.94470/
 Bukkit downloads: https://dev.bukkit.org/projects/blockwalk
