@@ -16,7 +16,7 @@ public class PlayerMove implements Listener {
     public void onMove(PlayerMoveEvent event) {
         Player p = event.getPlayer();
         if (blockwalk.blockwalkEnabled) {
-            p.getLocation().subtract(0,1,0).getBlock().setType(Material.REDSTONE_BLOCK);
+            p.getLocation().subtract(0,1,0).getBlock().setType(Material.COBBLESTONE);
         }
     }
 
